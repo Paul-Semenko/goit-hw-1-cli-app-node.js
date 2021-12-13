@@ -1,0 +1,29 @@
+{
+  "name": "goit-hw-1-cli-app-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Semenko/goit-hw-1-node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://Paul-Semenko.github.io/goit-hw-1-cli-app-node.js/issues"
+  },
+  "homepage": "https://Paul-Semenko.github.io/goit-hw-1-cli-app-node.js"
+}
